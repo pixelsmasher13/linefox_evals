@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "Here are the top 3 results from Autotrader.com for used Toyota RAV4, 2019+, under $25,000, within 25 miles of 94110, sorted by lowest price:\n\n1. **2019 Toyota RAV4 LE** — 80,000 mi — **$21,117** (AutoNation Toyota Hayward, 19.65 mi away)\n2. **2024 Toyota RAV4 XLE Hybrid** — 174,000 mi — **$21,947** (SWICKARD TOYOTA 101, 20.36 mi away)\n3. **2019 Toyota RAV4 XLE** — 100,000 mi — **$21,169** (Dealer, 22.21 mi away) — note: this one is actually priced below #2, so if strictly ranked by price it would be #2.\n\nPrice-ranked order (lowest to highest) among these three:\n1. 2019 RAV4 LE — 80K mi — $21,117\n2. 2019 RAV4 XLE — 100K mi — $21,169\n3. 2024 RAV4 XLE Hybrid — 174K mi — $21,947",
+  "payloads": [
+    {
+      "text": "Here are the top 3 results from Autotrader.com for used Toyota RAV4, 2019+, under $25,000, within 25 miles of 94110, sorted by lowest price:\n\n1. **2019 Toyota RAV4 LE** — 80,000 mi — **$21,117** (AutoNation Toyota Hayward, 19.65 mi away)\n2. **2024 Toyota RAV4 XLE Hybrid** — 174,000 mi — **$21,947** (SWICKARD TOYOTA 101, 20.36 mi away)\n3. **2019 Toyota RAV4 XLE** — 100,000 mi — **$21,169** (Dealer, 22.21 mi away) — note: this one is actually priced below #2, so if strictly ranked by price it would be #2.\n\nPrice-ranked order (lowest to highest) among these three:\n1. 2019 RAV4 LE — 80K mi — $21,117\n2. 2019 RAV4 XLE — 100K mi — $21,169\n3. 2024 RAV4 XLE Hybrid — 174K mi — $21,947",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 8,
+    "output": 844,
+    "cacheRead": 32342,
+    "cacheWrite": 5011,
+    "total": 38205,
+    "cost": {
+      "total": 0.0274519
+    }
+  },
+  "costUsd": 0.0274519,
+  "codeModeEngaged": false,
+  "assistantTurns": 4,
+  "toolSummary": {
+    "calls": 3,
+    "tools": [
+      "browser"
+    ],
+    "failures": 0
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "b130a9ac-e089-478d-a9b0-9b93b28fc45a"
+}

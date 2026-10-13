@@ -1,0 +1,10 @@
+{
+ "task_id": "aws-calculator-share",
+ "trial": 1,
+ "id": 5935,
+ "status": "completed",
+ "started_at": "2026-10-13T18:13:53.846Z",
+ "completed_at": "2026-10-13T18:14:12.388Z",
+ "completion_message": "Done \u2014 built out the AWS estimate in US East (N. Virginia) with 3 t3.medium on-demand Linux instances (730 hrs/month each, 100 GB gp3 EBS) plus S3 Standard storage at 500 GB/month.\n\nThe monthly total comes to **$126.60** (no upfront cost, $1,519.20 over 12 months). Here's the public share link: https://calculator.aws/#/estimate?id=f5579109ab8ab10449f2837da0bd41d1fd002037",
+ "memory": "Monthly cost: 126.60 USD (Upfront: 0.00 USD, 12-month total: 1,519.20 USD). Public share link: https://calculator.aws/#/estimate?id=f5579109ab8ab10449f2837da0bd41d1fd002037"
+}

@@ -1,0 +1,33 @@
+// Pinned OpenClaw config for the token-efficiency benchmark (BENCHMARKS.md).
+// Used via: openclaw agent exec --config openclaw-bench.json5 --model anthropic/claude-sonnet-5 ...
+// No credentials live here: the Anthropic key is substituted from the
+// ANTHROPIC_API_KEY environment variable of the run_cli_bench.py process.
+// Everything else is pinned so a run does not depend on ~/.openclaw state.
+{
+  // ANTHROPIC_WORKSPACE_ID is needed only for an organization-level key (one
+  // not scoped to a workspace): the API then requires the anthropic-workspace-id
+  // header on every request, and OpenClaw's Anthropic SDK adds it from this
+  // variable. Leave it unset for a workspace-scoped key. (Seen 2026-10-12: every
+  // call failed with "provider rejected the request schema" until it was set.)
+  env: { vars: { ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY}", ANTHROPIC_WORKSPACE_ID: "${ANTHROPIC_WORKSPACE_ID}" } },
+  agents: {
+    defaults: {
+      model: { primary: "anthropic/claude-sonnet-5" },
+      // Utility calls (titles, narration) would add off-task tokens; disable.
+      utilityModel: "",
+    },
+  },
+  tools: {
+    // "coding" (the exec default) excludes the browser; open the surface and
+    // then allow only what a web-task agent needs. web_search stays listed
+    // but is hidden unless a search-provider key is configured.
+    profile: "full",
+    allow: ["browser", "web_fetch", "web_search", "session_status"],
+  },
+  browser: {
+    enabled: true,
+    defaultProfile: "openclaw",
+    // Applies to the managed "openclaw" profile, which auto-assigns its CDP port.
+    headless: true,
+  },
+}

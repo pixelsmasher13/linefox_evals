@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "Here's the report for ZIP **60614 (Chicago)**, search \"usb-c charger 65w\" with filters **4★ & up + Prime**, sorted **Price: Low to High**, excluding sponsored listings:\n\n**1. 65W USB C Laptop Charger Compatible with Lenovo Thinkpad T14 T15 Yoga ThinkBook 14 16 Chromebook Computer Type C Fast Charging Power Supply Adapter Cord**\n- Price: $5.64 (limited-time deal, list $8.07)\n- Sold by: Antu Electronics\n- Delivery to 60614: Prime members — Tomorrow, Oct 13; Non-members — FREE delivery Sat, Oct 17\n\n**2. ZOER USB C to Laptop Charging Adapter Female Type C to Male DC 4.0 x 1.7mm Converter PD 65W Power Charger Connector**\n- Price: $5.99\n- Sold by: ZOER Direct\n- Delivery to 60614: FREE delivery Sat, Oct 17 (only 14 left in stock)\n\n**3. Universal 45W Chromebook Charger Compatible with HP Lenovo Asus Acer Dell Chromebook Laptop, Steam Deck, Switch 1/2 and More Laptops**\n- Price: $6.99 (list $9.99, 30% off)\n- Sold by: kekaihang (listed under \"Boolibo Store\" brand storefront)\n- Delivery to 60614: Prime members — Wed, Oct 14; Non-members — FREE delivery Sat, Oct 17\n\nNote: Result #3 is technically a 45W charger (it matched the \"usb-c charger 65w\" search but isn't itself 65W) — flagging in case you want a strictly-65W alternative instead.",
+  "payloads": [
+    {
+      "text": "Here's the report for ZIP **60614 (Chicago)**, search \"usb-c charger 65w\" with filters **4★ & up + Prime**, sorted **Price: Low to High**, excluding sponsored listings:\n\n**1. 65W USB C Laptop Charger Compatible with Lenovo Thinkpad T14 T15 Yoga ThinkBook 14 16 Chromebook Computer Type C Fast Charging Power Supply Adapter Cord**\n- Price: $5.64 (limited-time deal, list $8.07)\n- Sold by: Antu Electronics\n- Delivery to 60614: Prime members — Tomorrow, Oct 13; Non-members — FREE delivery Sat, Oct 17\n\n**2. ZOER USB C to Laptop Charging Adapter Female Type C to Male DC 4.0 x 1.7mm Converter PD 65W Power Charger Connector**\n- Price: $5.99\n- Sold by: ZOER Direct\n- Delivery to 60614: FREE delivery Sat, Oct 17 (only 14 left in stock)\n\n**3. Universal 45W Chromebook Charger Compatible with HP Lenovo Asus Acer Dell Chromebook Laptop, Steam Deck, Switch 1/2 and More Laptops**\n- Price: $6.99 (list $9.99, 30% off)\n- Sold by: kekaihang (listed under \"Boolibo Store\" brand storefront)\n- Delivery to 60614: Prime members — Wed, Oct 14; Non-members — FREE delivery Sat, Oct 17\n\nNote: Result #3 is technically a 45W charger (it matched the \"usb-c charger 65w\" search but isn't itself 65W) — flagging in case you want a strictly-65W alternative instead.",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 118,
+    "output": 10234,
+    "cacheRead": 2452806,
+    "cacheWrite": 69835,
+    "total": 2532993,
+    "cost": {
+      "total": 0.7677247
+    }
+  },
+  "costUsd": 0.7677247,
+  "codeModeEngaged": false,
+  "assistantTurns": 59,
+  "toolSummary": {
+    "calls": 59,
+    "tools": [
+      "browser",
+      "web_search"
+    ],
+    "failures": 7
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "c0a6dad4-2ddb-4ad7-b6ea-e4c70f0e5edf"
+}

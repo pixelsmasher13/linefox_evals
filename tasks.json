@@ -1,0 +1,44 @@
+[
+  {
+    "id": "amazon-zip-delivery",
+    "group": "operate",
+    "linefox_prompt": "Go to amazon.com. Use the 'Deliver to' control at the top of the page to set the delivery ZIP code to 60614. Then search for 'usb-c charger 65w', apply the filter 4 stars & up and sort by price low to high. Open each of the first 3 results that are not sponsored and save to memory its name, price, who it is sold by, and the delivery date shown for ZIP 60614. Then complete.",
+    "cli_prompt": "Go to amazon.com. Use the 'Deliver to' control at the top of the page to set the delivery ZIP code to 60614. Then search for 'usb-c charger 65w', apply the filter 4 stars & up and sort by price low to high. Open each of the first 3 results that are not sponsored and report its name, price, who it is sold by, and the delivery date shown for ZIP 60614.",
+    "why_browser": "Delivery ZIP lives in the session, not the URL; a fetch sees the server location. Check by hand the same hour with ZIP 60614 set. No Prime filter in the prompt: Amazon's sidebar has none (2026-10-13), and agents claimed to have applied one anyway."
+  },
+  {
+    "id": "aws-calculator-share",
+    "group": "operate",
+    "linefox_prompt": "Go to calculator.aws and create an estimate with two services in US East (N. Virginia): Amazon EC2 with 3 t3.medium on-demand Linux instances running 730 hours a month, each with a 100 GB gp3 EBS volume; and Amazon S3 Standard storing 500 GB a month. Then use Share to create a public link to the estimate. Save to memory the monthly total shown and the share link. Then complete.",
+    "cli_prompt": "Go to calculator.aws and create an estimate with two services in US East (N. Virginia): Amazon EC2 with 3 t3.medium on-demand Linux instances running 730 hours a month, each with a 100 GB gp3 EBS volume; and Amazon S3 Standard storing 500 GB a month. Then use Share to create a public link to the estimate. Report the monthly total shown and the share link.",
+    "why_browser": "Multi-step configurator. The share link is the receipt: open it and check the services and total."
+  },
+  {
+    "id": "fb-ad-details",
+    "group": "operate",
+    "linefox_prompt": "Go to facebook.com/ads/library. Search all ads in the United States for 'Allbirds', then use the filters to show only active ads that ran on Instagram. For each of the first 3 ads, open 'See ad details' and save to memory the Library ID, the date it started running and the platforms listed. Then complete.",
+    "cli_prompt": "Go to facebook.com/ads/library. Search all ads in the United States for 'Allbirds', then use the filters to show only active ads that ran on Instagram. For each of the first 3 ads, open 'See ad details' and report the Library ID, the date it started running and the platforms listed.",
+    "why_browser": "Ad Library returns 403 to scripts (curl, 2026-10-09). Details only appear in a modal. Check by hand the same hour."
+  },
+  {
+    "id": "google-maps-restaurants",
+    "group": "operate",
+    "linefox_prompt": "Go to google.com/maps. Search 'restaurants near Ferry Building, San Francisco'. Apply the filters rating 4.5+ and open now. Save to memory the first 5 results with name, rating and price level. Then complete.",
+    "cli_prompt": "Go to google.com/maps. Search 'restaurants near Ferry Building, San Francisco'. Apply the filters rating 4.5+ and open now. Report the first 5 results with name, rating and price level.",
+    "why_browser": "Public. Canvas map plus results list with rating and open-now filters."
+  },
+  {
+    "id": "autotrader-used-cars",
+    "group": "operate",
+    "linefox_prompt": "Go to autotrader.com. Search used Toyota RAV4 within 25 miles of ZIP 94110, model year 2019 or newer, price under $25,000, sorted by lowest price. Save to memory the first 3 listings with year, trim, mileage and price. Then complete.",
+    "cli_prompt": "Go to autotrader.com. Search used Toyota RAV4 within 25 miles of ZIP 94110, model year 2019 or newer, price under $25,000, sorted by lowest price. Report the first 3 listings with year, trim, mileage and price.",
+    "why_browser": "Filters are URL parameters, but curl got a 3.7 KB bot page on 2026-10-09. Check by hand the same hour."
+  },
+  {
+    "id": "amazon-cart-quantity",
+    "group": "act",
+    "linefox_prompt": "Go to amazon.com and open the cart; remove anything already in it. Search for 'Apple AirTag 4 pack', open the first result sold by Amazon and add it to the cart. Then search for 'Anker USB-C to USB-C cable 6 ft', open the first result and add it to the cart. Open the cart and change the AirTag quantity to 2. Save to memory each item's name, quantity and price, and the cart subtotal. Do not check out. Then complete.",
+    "cli_prompt": "Go to amazon.com and open the cart; remove anything already in it. Search for 'Apple AirTag 4 pack', open the first result sold by Amazon and add it to the cart. Then search for 'Anker USB-C to USB-C cable 6 ft', open the first result and add it to the cart. Open the cart and change the AirTag quantity to 2. Report each item's name, quantity and price, and the cart subtotal. Do not check out.",
+    "why_browser": "Public write, no login, no checkout. Cart state is session-only. Verify the cart afterwards."
+  }
+]

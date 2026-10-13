@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "The public share link works and confirms the same monthly total. Done.\n\n✅ Estimate created and shared successfully.\n\n**Monthly total: $126.60 USD** (EC2: $115.10 + S3: $11.50)\n\n**Share link:** https://calculator.aws/#/estimate?id=ed82b7dca646506bcfacbc6aa26900e74e53ed5a\n\nDetails:\n- **Amazon EC2**: 3× t3.medium, Linux, On-Demand, Shared tenancy, 100% utilization (730 hrs/month), US East (N. Virginia) — each with a 100 GB gp3 EBS volume → $115.10/month\n- **Amazon S3 Standard**: 500 GB/month storage, US East (N. Virginia) → $11.50/month\n- Total 12-month cost: $1,519.20 (no upfront cost)\n\nThe link is a public, read-only snapshot generated via the Share feature (valid for 1 year) — I verified it loads correctly and shows the same figures.",
+  "payloads": [
+    {
+      "text": "The public share link works and confirms the same monthly total. Done.\n\n✅ Estimate created and shared successfully.\n\n**Monthly total: $126.60 USD** (EC2: $115.10 + S3: $11.50)\n\n**Share link:** https://calculator.aws/#/estimate?id=ed82b7dca646506bcfacbc6aa26900e74e53ed5a\n\nDetails:\n- **Amazon EC2**: 3× t3.medium, Linux, On-Demand, Shared tenancy, 100% utilization (730 hrs/month), US East (N. Virginia) — each with a 100 GB gp3 EBS volume → $115.10/month\n- **Amazon S3 Standard**: 500 GB/month storage, US East (N. Virginia) → $11.50/month\n- Total 12-month cost: $1,519.20 (no upfront cost)\n\nThe link is a public, read-only snapshot generated via the Share feature (valid for 1 year) — I verified it loads correctly and shows the same figures.",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 182,
+    "output": 12338,
+    "cacheRead": 4330915,
+    "cacheWrite": 77065,
+    "total": 4420500,
+    "cost": {
+      "total": 1.1825895000000004
+    }
+  },
+  "costUsd": 1.1825895000000004,
+  "codeModeEngaged": false,
+  "assistantTurns": 91,
+  "toolSummary": {
+    "calls": 90,
+    "tools": [
+      "browser"
+    ],
+    "failures": 6
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "0311a0cd-7094-4406-be75-cc5d0a368656"
+}

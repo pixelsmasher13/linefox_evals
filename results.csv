@@ -1,0 +1,19 @@
+task,arm,runs,avg_wall_s,avg_cost_usd,avg_tokens_total,note
+amazon-zip-delivery,linefox,1,91,0.54,377000,trial 1 excluded (page left open from previous batch)
+amazon-zip-delivery,openclaw,2,312,0.65,2030000,
+amazon-zip-delivery,claude-code-playwright,2,230,1.29,3730000,could not find a Prime filter (none exists); reported without it
+aws-calculator-share,linefox,1,113,0.44,401000,trial 1 excluded (estimate left open from previous batch)
+aws-calculator-share,openclaw,2,324,1.39,5209000,
+aws-calculator-share,claude-code-playwright,2,188,1.14,4062000,
+fb-ad-details,linefox,2,143,0.31,331000,platforms field read from the filter not the modal (partial)
+fb-ad-details,openclaw,2,256,0.52,1643000,
+fb-ad-details,claude-code-playwright,2,91,0.62,1891000,
+google-maps-restaurants,linefox,2,64,0.15,158000,different five from the other arms (open-now at a different minute); checked by hand 13 Oct 2026
+google-maps-restaurants,openclaw,2,166,0.42,1124000,
+google-maps-restaurants,claude-code-playwright,2,144,0.77,2196000,
+autotrader-used-cars,linefox,2,49,0.16,108000,2024 RAV4 hybrid price differs from OpenClaw ($20780 vs $21947); checked by hand 13 Oct 2026
+autotrader-used-cars,openclaw,2,35,0.03,29000,found a filter URL; 2-4 calls; cheapest arm on this task
+autotrader-used-cars,claude-code-playwright,2,34,0.09,240000,blocked by Akamai bot detection both trials
+amazon-cart-quantity,linefox,2,52,0.32,214000,
+amazon-cart-quantity,openclaw,2,314,1.02,3619000,
+amazon-cart-quantity,claude-code-playwright,1,175,1.20,3463000,

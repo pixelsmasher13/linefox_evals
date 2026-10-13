@@ -1,0 +1,10 @@
+{
+ "task_id": "google-maps-restaurants",
+ "trial": 1,
+ "id": 5937,
+ "status": "completed",
+ "started_at": "2026-10-13T18:14:38.674Z",
+ "completed_at": "2026-10-13T18:15:50.410Z",
+ "completion_message": null,
+ "memory": "Filters applied: Rating 4.5+, Open now. Results:\n1. Nopa Fish - 4.7 stars (200 reviews) - price level not shown\n2. Delancey Street Restaurant - 4.5 stars (1,624 reviews) - price level not shown\n3. Teranga - 4.9 stars (116 reviews) - price level not shown\n4. Burger Littles - 4.5 stars (113 reviews) - price level not shown\n5. Fort Point | Ferry Building - 4.6 stars (121 reviews) - price level not shown"
+}

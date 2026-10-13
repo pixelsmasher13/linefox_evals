@@ -1,0 +1,10 @@
+{
+ "task_id": "aws-calculator-share",
+ "trial": 2,
+ "id": 5943,
+ "status": "completed",
+ "started_at": "2026-10-13T18:19:58.256Z",
+ "completed_at": "2026-10-13T18:21:51.595Z",
+ "completion_message": "Done \u2014 your AWS estimate is set up with EC2 (3x t3.medium on-demand, 730 hrs/month, 100GB gp3 EBS each) and S3 Standard (500GB/month).\n\n**Monthly total: $126.60 USD**\n\n**Public share link:** https://calculator.aws/#/estimate?id=0a1b7f5ce2a2d3684d49a5b95f0d02c94c772476",
+ "memory": "Monthly cost: 126.60 USD. Public share link: https://calculator.aws/#/estimate?id=0a1b7f5ce2a2d3684d49a5b95f0d02c94c772476"
+}

@@ -1,0 +1,10 @@
+{
+ "task_id": "google-maps-restaurants",
+ "trial": 2,
+ "id": 5945,
+ "status": "completed",
+ "started_at": "2026-10-13T18:24:40.665Z",
+ "completed_at": "2026-10-13T18:25:36.941Z",
+ "completion_message": "Here are the top 5 restaurants near the Ferry Building that are open now and rated 4.5+:\n\n1. **Teranga** - 4.9 stars\n2. **Nopa Fish** - 4.7 stars\n3. **Fort Point | Ferry Building** - 4.6 stars\n4. **Delancey Street Restaurant** - 4.5 stars\n5. **Burger Littles** - 4.5 stars\n\nOne heads up: price level ($, $$, etc.) wasn't shown in Google Maps' list view, so I couldn't capture that detail despite checking the price filter options \u2014 just names and ratings this time.",
+ "memory": "1. Nopa Fish - 4.7 stars - price level not shown\n2. Delancey Street Restaurant - 4.5 stars - price level not shown\n3. Teranga - 4.9 stars - price level not shown\n4. Burger Littles - 4.5 stars - price level not shown\n5. Fort Point | Ferry Building - 4.6 stars - price level not shown\n(Price level not displayed in list view; filters Rating 4.5+ and Open now applied)"
+}

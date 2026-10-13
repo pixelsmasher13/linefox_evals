@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "Here are the first 3 listings on AutoTrader for a used Toyota RAV4, 2019+, within 25 miles of 94110, under $25,000, sorted by lowest price (note: the top slot is a sponsored listing, which can appear above strict price order):\n\n1. **2024 Toyota RAV4 XLE (Hybrid)** — 174K mi — **$21,947** (sponsored; Swickard Toyota 101, ~20.4 mi away)\n2. **2019 Toyota RAV4 LE** — 80K mi — **$21,117** (\"Great Price\"; AutoNation Toyota Hayward, ~19.7 mi away)\n3. **2021 Toyota RAV4 LE** (Toyota Silver Certified) — 94K mi — **$24,234** (\"Good Price\"; San Francisco Toyota, ~3.2 mi away)\n\nFor reference, the next two listed were a 2021 RAV4 XLE, 92K mi, $23,544 (Serramonte Subaru) and a 2019 RAV4 XLE Premium (price cut off in the data pulled).",
+  "payloads": [
+    {
+      "text": "Here are the first 3 listings on AutoTrader for a used Toyota RAV4, 2019+, within 25 miles of 94110, under $25,000, sorted by lowest price (note: the top slot is a sponsored listing, which can appear above strict price order):\n\n1. **2024 Toyota RAV4 XLE (Hybrid)** — 174K mi — **$21,947** (sponsored; Swickard Toyota 101, ~20.4 mi away)\n2. **2019 Toyota RAV4 LE** — 80K mi — **$21,117** (\"Great Price\"; AutoNation Toyota Hayward, ~19.7 mi away)\n3. **2021 Toyota RAV4 LE** (Toyota Silver Certified) — 94K mi — **$24,234** (\"Good Price\"; San Francisco Toyota, ~3.2 mi away)\n\nFor reference, the next two listed were a 2021 RAV4 XLE, 92K mi, $23,544 (Serramonte Subaru) and a 2019 RAV4 XLE Premium (price cut off in the data pulled).",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 6,
+    "output": 1125,
+    "cacheRead": 23080,
+    "cacheWrite": 7943,
+    "total": 32154,
+    "cost": {
+      "total": 0.0357355
+    }
+  },
+  "costUsd": 0.0357355,
+  "codeModeEngaged": false,
+  "assistantTurns": 3,
+  "toolSummary": {
+    "calls": 2,
+    "tools": [
+      "browser"
+    ],
+    "failures": 0
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "ffc41b6a-af0b-48ec-83d5-be8f5c910954"
+}

@@ -1,0 +1,10 @@
+{
+ "task_id": "fb-ad-details",
+ "trial": 1,
+ "id": 5936,
+ "status": "completed",
+ "started_at": "2026-10-13T18:14:24.829Z",
+ "completed_at": "2026-10-13T18:16:40.156Z",
+ "completion_message": null,
+ "memory": "Ad 3/3: Library ID: 2479808865836466 - Started running on Oct 10, 2026 - Platforms: Instagram (filtered by Instagram)\n---\nAd 2/3: Library ID: 832674169392882 - Started running on Oct 20, 2025 - Platforms: Instagram (filtered by Instagram)\n---\nAd 1/3: Library ID: 917886887847230 - Started running on Oct 5, 2026 - Platforms: Instagram (filtered by Instagram, dropdown not expanded but matches filter)"
+}

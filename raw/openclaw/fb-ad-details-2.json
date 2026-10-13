@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "Got all 3. Here's the report.\n\n**Meta Ad Library — \"Allbirds\" (United States, filtered: Active ads, Platform = Instagram)**\n\nNote: these are Marketplace-listing/affiliate-style ads mentioning Allbirds, not official Allbirds-brand ad account ads — that's simply what the keyword search + filters returned.\n\n| # | Library ID | Started Running | Platforms Listed |\n|---|---|---|---|\n| 1 | 832674169392882 | Oct 20, 2025 | Facebook, Instagram, Messenger |\n| 2 | 917886887847230 | Oct 5, 2026 | Facebook, Instagram, Messenger, Threads |\n| 3 | 2479808865836466 | Oct 10, 2026 | Facebook, Instagram, Messenger, Threads |\n\nAll three are currently showing \"Active\" status, as expected from the applied filter.",
+  "payloads": [
+    {
+      "text": "Got all 3. Here's the report.\n\n**Meta Ad Library — \"Allbirds\" (United States, filtered: Active ads, Platform = Instagram)**\n\nNote: these are Marketplace-listing/affiliate-style ads mentioning Allbirds, not official Allbirds-brand ad account ads — that's simply what the keyword search + filters returned.\n\n| # | Library ID | Started Running | Platforms Listed |\n|---|---|---|---|\n| 1 | 832674169392882 | Oct 20, 2025 | Facebook, Instagram, Messenger |\n| 2 | 917886887847230 | Oct 5, 2026 | Facebook, Instagram, Messenger, Threads |\n| 3 | 2479808865836466 | Oct 10, 2026 | Facebook, Instagram, Messenger, Threads |\n\nAll three are currently showing \"Active\" status, as expected from the applied filter.",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 94,
+    "output": 5347,
+    "cacheRead": 2478677,
+    "cacheWrite": 81941,
+    "total": 2566059,
+    "cost": {
+      "total": 0.7542459000000001
+    }
+  },
+  "costUsd": 0.7542459000000001,
+  "codeModeEngaged": false,
+  "assistantTurns": 47,
+  "toolSummary": {
+    "calls": 46,
+    "tools": [
+      "browser"
+    ],
+    "failures": 3
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "47ce9954-f1dc-464c-9304-1534b4300a9e"
+}

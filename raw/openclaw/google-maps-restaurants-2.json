@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "I applied the filters (Rating 4.5+ and Open now) on Google Maps for \"restaurants near Ferry Building, San Francisco.\" Here are the top 5 results:\n\n1. **Hog Island Oyster Co.** — ⭐ 4.6 (4,200 reviews) — Oyster bar restaurant, Ferry Building #11\n2. **La Mar Cocina Peruana San Francisco** — ⭐ 4.5 (5,042 reviews) — Peruvian restaurant, Pier 1½ The Embarcadero N\n3. **Nopa Fish** — ⭐ 4.7 (199 reviews) — Fish restaurant, Ferry Building, Shop 31\n4. **Waterbar Restaurant** — ⭐ 4.5 (4,594 reviews) — Seafood restaurant, 399 The Embarcadero\n5. **Wayfare Tavern** — ⭐ 4.5 (3,104 reviews) — American restaurant, 201 Pine St\n\nNote: price level ($/$$/$$$) wasn't displayed on these listing cards or detail panels in the signed-out Maps session I used (web_search was also unavailable to cross-check), so I can't reliably report price tier for these five without risking inaccurate data — happy to sign into a Google account in the browser if you want me to pull that field directly from Maps.",
+  "payloads": [
+    {
+      "text": "I applied the filters (Rating 4.5+ and Open now) on Google Maps for \"restaurants near Ferry Building, San Francisco.\" Here are the top 5 results:\n\n1. **Hog Island Oyster Co.** — ⭐ 4.6 (4,200 reviews) — Oyster bar restaurant, Ferry Building #11\n2. **La Mar Cocina Peruana San Francisco** — ⭐ 4.5 (5,042 reviews) — Peruvian restaurant, Pier 1½ The Embarcadero N\n3. **Nopa Fish** — ⭐ 4.7 (199 reviews) — Fish restaurant, Ferry Building, Shop 31\n4. **Waterbar Restaurant** — ⭐ 4.5 (4,594 reviews) — Seafood restaurant, 399 The Embarcadero\n5. **Wayfare Tavern** — ⭐ 4.5 (3,104 reviews) — American restaurant, 201 Pine St\n\nNote: price level ($/$$/$$$) wasn't displayed on these listing cards or detail panels in the signed-out Maps session I used (web_search was also unavailable to cross-check), so I can't reliably report price tier for these five without risking inaccurate data — happy to sign into a Google account in the browser if you want me to pull that field directly from Maps.",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 60,
+    "output": 4782,
+    "cacheRead": 1220748,
+    "cacheWrite": 61743,
+    "total": 1287333,
+    "cost": {
+      "total": 0.4464471
+    }
+  },
+  "costUsd": 0.4464471,
+  "codeModeEngaged": false,
+  "assistantTurns": 30,
+  "toolSummary": {
+    "calls": 33,
+    "tools": [
+      "browser",
+      "web_search"
+    ],
+    "failures": 5
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "21246a0f-7531-4e98-b4fc-b1aa926f9efa"
+}

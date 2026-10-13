@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "status": "ok",
+  "final": "Filters applied successfully (Rating 4.5+ and Open Now) on Google Maps for \"restaurants near Ferry Building, San Francisco.\" Here are the top 5 results:\n\n| # | Name | Rating | Price Level |\n|---|------|--------|-------------|\n| 1 | Waterbar Restaurant | 4.5 (4,593 reviews) | Not shown* |\n| 2 | Hog Island Oyster Co. | 4.6 (4,200 reviews) | Not shown* |\n| 3 | La Mar Cocina Peruana San Francisco | 4.5 (5,042 reviews) | Not shown* |\n| 4 | Wayfare Tavern | 4.5 (3,104 reviews) | Not shown* |\n| 5 | Nopa Fish | 4.7 (199 reviews) | Not shown* |\n\nNotes:\n- A sponsored ad (\"Fog Harbor Fish House,\" 4.5★, 10,474 reviews) appeared above the organic results — excluded since it's a paid placement, not a ranked result.\n- *Price level ($/$$/$$$) isn't displayed in this signed-out \"limited view\" of Google Maps — it typically requires being signed into a Google account to show. Based on category/description, these are all upscale ($$$ range) restaurants (seafood, Peruvian, American fine dining), except Nopa Fish which looked more casual/counter-style.\n- All 5 are confirmed currently open given the \"Open now\" filter.",
+  "payloads": [
+    {
+      "text": "Filters applied successfully (Rating 4.5+ and Open Now) on Google Maps for \"restaurants near Ferry Building, San Francisco.\" Here are the top 5 results:\n\n| # | Name | Rating | Price Level |\n|---|------|--------|-------------|\n| 1 | Waterbar Restaurant | 4.5 (4,593 reviews) | Not shown* |\n| 2 | Hog Island Oyster Co. | 4.6 (4,200 reviews) | Not shown* |\n| 3 | La Mar Cocina Peruana San Francisco | 4.5 (5,042 reviews) | Not shown* |\n| 4 | Wayfare Tavern | 4.5 (3,104 reviews) | Not shown* |\n| 5 | Nopa Fish | 4.7 (199 reviews) | Not shown* |\n\nNotes:\n- A sponsored ad (\"Fog Harbor Fish House,\" 4.5★, 10,474 reviews) appeared above the organic results — excluded since it's a paid placement, not a ranked result.\n- *Price level ($/$$/$$$) isn't displayed in this signed-out \"limited view\" of Google Maps — it typically requires being signed into a Google account to show. Based on category/description, these are all upscale ($$$ range) restaurants (seafood, Peruvian, American fine dining), except Nopa Fish which looked more casual/counter-style.\n- All 5 are confirmed currently open given the \"Open now\" filter.",
+      "mediaUrl": null
+    }
+  ],
+  "usage": {
+    "input": 64,
+    "output": 5335,
+    "cacheRead": 1017159,
+    "cacheWrite": 57767,
+    "total": 1080325,
+    "cost": {
+      "total": 0.40132730000000005
+    }
+  },
+  "costUsd": 0.40132730000000005,
+  "codeModeEngaged": false,
+  "assistantTurns": 32,
+  "toolSummary": {
+    "calls": 35,
+    "tools": [
+      "browser",
+      "web_search"
+    ],
+    "failures": 8
+  },
+  "model": "claude-sonnet-5",
+  "provider": "anthropic",
+  "sessionId": "7c0aaffd-816d-4bf6-aa56-191d5e5af98a"
+}

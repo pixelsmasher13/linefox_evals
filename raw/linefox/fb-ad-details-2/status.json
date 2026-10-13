@@ -1,0 +1,10 @@
+{
+ "task_id": "fb-ad-details",
+ "trial": 2,
+ "id": 5944,
+ "status": "completed",
+ "started_at": "2026-10-13T18:22:00.231Z",
+ "completed_at": "2026-10-13T18:24:30.845Z",
+ "completion_message": "Pulled the details for the first 3 active Instagram ads from Allbirds in the Ad Library:\n\n1. **Library ID: 917886887847230** \u2014 started running Oct 5, 2026 \u2014 Instagram (also showed up as a Facebook Marketplace listing)\n2. **Library ID: 832674169392882** \u2014 started running Oct 20, 2025 \u2014 Instagram\n3. **Library ID: 2479808865836466** \u2014 started running Oct 10, 2026 \u2014 Instagram\n\nAll three were filtered to active status and Instagram placement as requested.",
+ "memory": "Ad 3: Library ID: 2479808865836466, Started running on Oct 10, 2026, Platforms: Instagram (filtered platform)\n---\nAd 2: Library ID: 832674169392882, Started running on Oct 20, 2025, Platforms: Instagram (filtered platform)\n---\nAd 1: Library ID: 917886887847230, Started running on Oct 5, 2026, Platforms: Instagram (filtered platform; Facebook Marketplace listing also shown)"
+}

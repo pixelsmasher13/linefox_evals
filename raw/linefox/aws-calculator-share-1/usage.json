@@ -1,0 +1,88 @@
+{
+ "execution_run_id": 5935,
+ "status": "completed",
+ "total_active_seconds": 18,
+ "current_turn": 0,
+ "calls": 5,
+ "models": [
+  "claude-sonnet-5"
+ ],
+ "input_tokens": 16612,
+ "cache_read_tokens": 40642,
+ "cache_write_tokens": 13951,
+ "output_tokens": 731,
+ "latency_ms": 10710,
+ "by_purpose": {
+  "step": {
+   "calls": 4,
+   "input_tokens": 11551,
+   "cache_read_tokens": 40642,
+   "cache_write_tokens": 13951,
+   "output_tokens": 560
+  },
+  "completion": {
+   "calls": 1,
+   "input_tokens": 5061,
+   "cache_read_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 171
+  }
+ },
+ "rows": [
+  {
+   "step_number": 1,
+   "purpose": "step",
+   "model": "claude-sonnet-5",
+   "input_tokens": 2525,
+   "cache_read_tokens": 0,
+   "cache_write_tokens": 13626,
+   "output_tokens": 122,
+   "latency_ms": 1447,
+   "created_at": "2026-10-13T18:13:56.038Z"
+  },
+  {
+   "step_number": 2,
+   "purpose": "step",
+   "model": "claude-sonnet-5",
+   "input_tokens": 2882,
+   "cache_read_tokens": 13626,
+   "cache_write_tokens": 0,
+   "output_tokens": 117,
+   "latency_ms": 2957,
+   "created_at": "2026-10-13T18:14:03.171Z"
+  },
+  {
+   "step_number": 3,
+   "purpose": "step",
+   "model": "claude-sonnet-5",
+   "input_tokens": 3047,
+   "cache_read_tokens": 13626,
+   "cache_write_tokens": 0,
+   "output_tokens": 212,
+   "latency_ms": 2586,
+   "created_at": "2026-10-13T18:14:09.533Z"
+  },
+  {
+   "step_number": 4,
+   "purpose": "step",
+   "model": "claude-sonnet-5",
+   "input_tokens": 3097,
+   "cache_read_tokens": 13390,
+   "cache_write_tokens": 325,
+   "output_tokens": 109,
+   "latency_ms": 1646,
+   "created_at": "2026-10-13T18:14:12.358Z"
+  },
+  {
+   "step_number": 4,
+   "purpose": "completion",
+   "model": "claude-sonnet-5",
+   "input_tokens": 5061,
+   "cache_read_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 171,
+   "latency_ms": 2074,
+   "created_at": "2026-10-13T18:14:14.561Z"
+  }
+ ]
+}
